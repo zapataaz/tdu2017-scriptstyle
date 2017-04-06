@@ -36,7 +36,7 @@ $(document).ready(function () {
 	//Add directions on how to access an application on the student home profile page
 	if(window.location.href.indexOf("Students.Home&RequiredProfile") > -1) {
 		
-		$('.panel-primary').children(':eq(0)').after('<div id="student_app_instructions" class="well">Click on the application name below to complete or view your application.</div>');
+		$('.panel-primary').children(':eq(0)').after('<div id="student_app_instructions" class="panel-body">Click on the application name below to complete or view your application.</div>');
 		
 	};
 		
